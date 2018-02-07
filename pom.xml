@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.m0uj</groupId>
+    <artifactId>spring-mongodb-jwt-starter</artifactId>
+    <version>0.1-RELEASE</version>
+
+    <packaging>pom</packaging>
+
+    <name>Spring MongoDB JWT Starter</name>
+    <description>Spring MongoDB JWT Starter</description>
+
+    <scm>
+        <url>https://github.com/m0uj/spring-mongodb-jwt-starter.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>m0uj</id>
+            <name>Moujib Kadri</name>
+            <email>kadrimoujib@gmail.com</email>
+            <roles>
+                <role>Full-Stack Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <prerequisites>
+        <maven>3.5.0</maven>
+    </prerequisites>
+
+    <modules>
+        <module>spring-mongodb-jwt-starter-parent</module>
+        <module>spring-mongodb-jwt-starter-webapp</module>
+        <module>spring-mongodb-jwt-starter-commons</module>
+    </modules>
+
+</project>
