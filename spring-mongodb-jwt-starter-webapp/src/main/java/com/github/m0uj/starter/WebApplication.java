@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @EnableAutoConfiguration
 @SpringBootApplication
-public class WebApplication { // TODO REST API Correction; employees, crams, projects should be under companies/current
+public class WebApplication {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(WebApplication.class, args);
     }
