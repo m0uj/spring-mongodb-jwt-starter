@@ -32,6 +32,6 @@ To run the Tests, execute:
 ### Running the Web Application
 To run the Web Application, go inside the starter-web directory and execute:
 
-    cd starter-web
+    cd spring-mongodb-jwt-starter-webapp
     mvn spring-boot:run
 
